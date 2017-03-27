@@ -2,23 +2,24 @@
   display: grid;
   width: 100%;
   min-height: 100vh;
-  grid-template-areas: "aside  main"
-                       "footer  footer";
-  grid-template-rows: 1fr 200px;
-  grid-template-columns: 150px 1fr;
+  grid-template-areas:
+    "aside main"
+    "footer footer";
+  grid-template-rows: 1fr 100px;
+  grid-template-columns: 250px 1fr;
 }
 
 aside {
   grid-area: aside;
-  background-color: #ffa08c;
+  background-color: #3b3b4e;
 }
 
 main {
   grid-area: main;
-  background-color: #ffff64;
+  background-color: #CFCFEA;
 }
 
 footer {
   grid-area: footer;
-  background-color: #8cffa0;
+  background-color: #B2B2D6;
 }
