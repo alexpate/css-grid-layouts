@@ -1,6 +1,8 @@
 .container {
   display: grid;
   width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
   min-height: 100vh;
   grid-template-areas:
     "aside main"
