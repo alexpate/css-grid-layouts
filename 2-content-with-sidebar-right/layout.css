@@ -1,0 +1,27 @@
+.container {
+  display: grid;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 100vh;
+  grid-template-areas:
+    "main aside"
+    "footer footer";
+  grid-template-rows: 1fr 100px;
+  grid-template-columns: 1fr 250px;
+}
+
+aside {
+  grid-area: aside;
+  background-color: #3b3b4e;
+}
+
+main {
+  grid-area: main;
+  background-color: #CFCFEA;
+}
+
+footer {
+  grid-area: footer;
+  background-color: #B2B2D6;
+}
